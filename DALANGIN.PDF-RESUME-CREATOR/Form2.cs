@@ -16,5 +16,17 @@ namespace DALANGIN.PDF_RESUME_CREATOR
         {
             InitializeComponent();
         }
+
+        private void choosefileButton_Click(object sender, EventArgs e)
+        {
+            string jsonFile;
+            OpenFileDialog fileexplorer = new OpenFileDialog();
+
+            if (fileexplorer.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                jsonFile = fileexplorer.FileName;
+                datapreviewRichTextBox.Text = jsonFile;
+            }
+        }
     }
 }
