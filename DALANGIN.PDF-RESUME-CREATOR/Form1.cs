@@ -97,5 +97,12 @@ namespace DALANGIN.PDF_RESUME_CREATOR
 
             savejsonButton.Enabled = false;
         }
+
+        private void convertjsonButton_Click(object sender, EventArgs e)
+        {
+            Form2 converttoPDF = new Form2();
+            converttoPDF.Show();
+            this.Hide();
+        }
     }
 }

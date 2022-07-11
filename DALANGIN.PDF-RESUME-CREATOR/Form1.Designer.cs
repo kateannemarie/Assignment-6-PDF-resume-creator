@@ -595,6 +595,7 @@
             this.convertjsonButton.TabIndex = 60;
             this.convertjsonButton.Text = "Convert JSON to PDF";
             this.convertjsonButton.UseVisualStyleBackColor = true;
+            this.convertjsonButton.Click += new System.EventHandler(this.convertjsonButton_Click);
             // 
             // resetButton
             // 
