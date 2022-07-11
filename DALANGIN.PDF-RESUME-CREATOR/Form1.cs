@@ -58,7 +58,44 @@ namespace DALANGIN.PDF_RESUME_CREATOR
             achievement1TextBox.Clear();
             achievement2TextBox.Clear();
             achievement3TextBox.Clear();
+            savejsonButton.Enabled = true;
+        }
 
+        private void savejsonButton_Click(object sender, EventArgs e)
+        {
+            Data data = new Data
+            {
+                Name = firstnameTextBox.Text + " " + middlenameTextBox.Text + " " + lastnameTextBox.Text,
+                Address = addressTextBox.Text,
+                ContactNumber = contactnumTextBox.Text,
+                EmailAddress = emailaddTextBox.Text,
+                Objective = objectiveTextBox.Text,
+                Skill1 = skill1TextBox.Text,
+                Skill2 = skill2TextBox.Text,
+                Skill3 = skill3TextBox.Text,
+                YearCompany1 = year1TextBox.Text,
+                Company1 = companyname1TextBox.Text,
+                Position1 = position1TextBox.Text,
+                YearCompany2 = year2TextBox.Text,
+                Company2 = companyname2TextBox.Text,
+                Position2 = position2TextBox.Text,
+                JHS = jhsTextBox.Text,
+                JHSYear = yearjhsTextBox.Text,
+                SHS = shsTextBox.Text,
+                SHSYear = yearshsTextBox.Text,
+                SHSStrand = strandTextbox.Text,
+                College = collegeTextBox.Text,
+                CollegeYear = yearcollegeTextBox.Text,
+                CollegeCourse = courseTextBox.Text,
+                Achievement1 = achievement1TextBox.Text,
+                Achievement2 = achievement2TextBox.Text,
+                Achievement3 = achievement3TextBox.Text,
+            };
+
+            string JsonOutput = JsonConvert.SerializeObject(data, Formatting.Indented);
+            File.WriteAllText(@"C:\Users\kitka\source\repos\DALANGIN.PDF-RESUME-CREATOR\DALANGIN.PDF-RESUME-CREATOR\Important-Files\JSON-Files\" + lastnameTextBox.Text + "_" + firstnameTextBox.Text + ".json", JsonOutput);
+
+            savejsonButton.Enabled = false;
         }
     }
 }

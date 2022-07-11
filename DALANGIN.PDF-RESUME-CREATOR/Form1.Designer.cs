@@ -585,6 +585,7 @@
             this.savejsonButton.TabIndex = 59;
             this.savejsonButton.Text = "Save as JSON File";
             this.savejsonButton.UseVisualStyleBackColor = true;
+            this.savejsonButton.Click += new System.EventHandler(this.savejsonButton_Click);
             // 
             // convertjsonButton
             // 
