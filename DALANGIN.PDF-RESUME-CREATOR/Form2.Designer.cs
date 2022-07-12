@@ -37,13 +37,15 @@
             this.fnLabel = new System.Windows.Forms.Label();
             this.lnLabel = new System.Windows.Forms.Label();
             this.noteLabel = new System.Windows.Forms.Label();
+            this.backButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // choosefileButton
             // 
-            this.choosefileButton.Location = new System.Drawing.Point(12, 57);
+            this.choosefileButton.Location = new System.Drawing.Point(14, 66);
+            this.choosefileButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.choosefileButton.Name = "choosefileButton";
-            this.choosefileButton.Size = new System.Drawing.Size(97, 44);
+            this.choosefileButton.Size = new System.Drawing.Size(113, 51);
             this.choosefileButton.TabIndex = 0;
             this.choosefileButton.Text = "Choose a file";
             this.choosefileButton.UseVisualStyleBackColor = true;
@@ -51,17 +53,19 @@
             // 
             // datapreviewRichTextBox
             // 
-            this.datapreviewRichTextBox.Location = new System.Drawing.Point(42, 107);
+            this.datapreviewRichTextBox.Location = new System.Drawing.Point(49, 123);
+            this.datapreviewRichTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.datapreviewRichTextBox.Name = "datapreviewRichTextBox";
-            this.datapreviewRichTextBox.Size = new System.Drawing.Size(326, 142);
+            this.datapreviewRichTextBox.Size = new System.Drawing.Size(380, 163);
             this.datapreviewRichTextBox.TabIndex = 1;
             this.datapreviewRichTextBox.Text = "";
             // 
             // convertButton
             // 
-            this.convertButton.Location = new System.Drawing.Point(307, 409);
+            this.convertButton.Location = new System.Drawing.Point(358, 472);
+            this.convertButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.convertButton.Name = "convertButton";
-            this.convertButton.Size = new System.Drawing.Size(97, 44);
+            this.convertButton.Size = new System.Drawing.Size(113, 51);
             this.convertButton.TabIndex = 2;
             this.convertButton.Text = "Convert";
             this.convertButton.UseVisualStyleBackColor = true;
@@ -71,7 +75,8 @@
             // 
             this.secondformLabel.AutoSize = true;
             this.secondformLabel.Font = new System.Drawing.Font("Lucida Bright", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.secondformLabel.Location = new System.Drawing.Point(54, 18);
+            this.secondformLabel.Location = new System.Drawing.Point(87, 26);
+            this.secondformLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.secondformLabel.Name = "secondformLabel";
             this.secondformLabel.Size = new System.Drawing.Size(295, 22);
             this.secondformLabel.TabIndex = 3;
@@ -79,51 +84,75 @@
             // 
             // fnTextBox
             // 
-            this.fnTextBox.Location = new System.Drawing.Point(113, 304);
+            this.fnTextBox.Location = new System.Drawing.Point(132, 351);
+            this.fnTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.fnTextBox.Name = "fnTextBox";
-            this.fnTextBox.Size = new System.Drawing.Size(191, 20);
+            this.fnTextBox.Size = new System.Drawing.Size(222, 21);
             this.fnTextBox.TabIndex = 4;
+            this.fnTextBox.TextChanged += new System.EventHandler(this.fnTextBox_TextChanged);
             // 
             // lnTextBox
             // 
-            this.lnTextBox.Location = new System.Drawing.Point(113, 330);
+            this.lnTextBox.Location = new System.Drawing.Point(132, 381);
+            this.lnTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.lnTextBox.Name = "lnTextBox";
-            this.lnTextBox.Size = new System.Drawing.Size(191, 20);
+            this.lnTextBox.Size = new System.Drawing.Size(222, 21);
             this.lnTextBox.TabIndex = 5;
+            this.lnTextBox.TextChanged += new System.EventHandler(this.lnTextBox_TextChanged);
             // 
             // fnLabel
             // 
             this.fnLabel.AutoSize = true;
-            this.fnLabel.Location = new System.Drawing.Point(47, 307);
+            this.fnLabel.BackColor = System.Drawing.Color.White;
+            this.fnLabel.Location = new System.Drawing.Point(55, 354);
+            this.fnLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.fnLabel.Name = "fnLabel";
-            this.fnLabel.Size = new System.Drawing.Size(60, 13);
+            this.fnLabel.Size = new System.Drawing.Size(70, 15);
             this.fnLabel.TabIndex = 6;
             this.fnLabel.Text = "First Name:";
             // 
             // lnLabel
             // 
             this.lnLabel.AutoSize = true;
-            this.lnLabel.Location = new System.Drawing.Point(46, 333);
+            this.lnLabel.BackColor = System.Drawing.Color.White;
+            this.lnLabel.Location = new System.Drawing.Point(54, 384);
+            this.lnLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnLabel.Name = "lnLabel";
-            this.lnLabel.Size = new System.Drawing.Size(61, 13);
+            this.lnLabel.Size = new System.Drawing.Size(70, 15);
             this.lnLabel.TabIndex = 7;
             this.lnLabel.Text = "Last Name:";
             // 
             // noteLabel
             // 
             this.noteLabel.AutoSize = true;
-            this.noteLabel.Location = new System.Drawing.Point(39, 279);
+            this.noteLabel.BackColor = System.Drawing.Color.White;
+            this.noteLabel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noteLabel.Location = new System.Drawing.Point(46, 322);
+            this.noteLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.noteLabel.Name = "noteLabel";
-            this.noteLabel.Size = new System.Drawing.Size(265, 13);
+            this.noteLabel.Size = new System.Drawing.Size(359, 16);
             this.noteLabel.TabIndex = 8;
             this.noteLabel.Text = "Please input your first and last name before converting:";
             // 
+            // backButton
+            // 
+            this.backButton.Location = new System.Drawing.Point(238, 472);
+            this.backButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(113, 51);
+            this.backButton.TabIndex = 9;
+            this.backButton.Text = "Back";
+            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.Click += new System.EventHandler(this.backButton_Click);
+            // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(416, 466);
+            this.BackColor = System.Drawing.Color.Bisque;
+            this.ClientSize = new System.Drawing.Size(485, 538);
             this.ControlBox = false;
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.noteLabel);
             this.Controls.Add(this.lnLabel);
             this.Controls.Add(this.fnLabel);
@@ -133,6 +162,9 @@
             this.Controls.Add(this.convertButton);
             this.Controls.Add(this.datapreviewRichTextBox);
             this.Controls.Add(this.choosefileButton);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.Black;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
@@ -151,5 +183,6 @@
         private System.Windows.Forms.Label fnLabel;
         private System.Windows.Forms.Label lnLabel;
         private System.Windows.Forms.Label noteLabel;
+        private System.Windows.Forms.Button backButton;
     }
 }

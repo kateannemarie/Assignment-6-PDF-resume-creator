@@ -159,7 +159,27 @@ namespace DALANGIN.PDF_RESUME_CREATOR
 
             }
 
+            MessageBox.Show("Done!");
 
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            Form1 resumecreator = new Form1();
+            resumecreator.Show();
+            this.Close();
+        }
+
+        private void fnTextBox_TextChanged(object sender, EventArgs e)
+        {
+            fnTextBox.SelectionStart = fnTextBox.Text.Length;
+            fnTextBox.Text = fnTextBox.Text.ToUpper();
+        }
+
+        private void lnTextBox_TextChanged(object sender, EventArgs e)
+        {
+            lnTextBox.SelectionStart = lnTextBox.Text.Length;
+            lnTextBox.Text = lnTextBox.Text.ToUpper();
         }
     }
 }

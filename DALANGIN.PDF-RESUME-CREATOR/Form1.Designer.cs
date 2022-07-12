@@ -257,6 +257,7 @@
             // workexperienceLabel
             // 
             this.workexperienceLabel.AutoSize = true;
+            this.workexperienceLabel.BackColor = System.Drawing.Color.White;
             this.workexperienceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.workexperienceLabel.Location = new System.Drawing.Point(6, 445);
             this.workexperienceLabel.Name = "workexperienceLabel";
@@ -491,6 +492,7 @@
             // personalinformationLabel
             // 
             this.personalinformationLabel.AutoSize = true;
+            this.personalinformationLabel.BackColor = System.Drawing.Color.White;
             this.personalinformationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.personalinformationLabel.Location = new System.Drawing.Point(6, 62);
             this.personalinformationLabel.Name = "personalinformationLabel";
@@ -501,6 +503,7 @@
             // educationalbgLabel
             // 
             this.educationalbgLabel.AutoSize = true;
+            this.educationalbgLabel.BackColor = System.Drawing.Color.White;
             this.educationalbgLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.educationalbgLabel.Location = new System.Drawing.Point(421, 62);
             this.educationalbgLabel.Name = "educationalbgLabel";
@@ -511,7 +514,9 @@
             // achievementsLabel
             // 
             this.achievementsLabel.AutoSize = true;
+            this.achievementsLabel.BackColor = System.Drawing.Color.White;
             this.achievementsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.achievementsLabel.ForeColor = System.Drawing.Color.Black;
             this.achievementsLabel.Location = new System.Drawing.Point(421, 357);
             this.achievementsLabel.Name = "achievementsLabel";
             this.achievementsLabel.Size = new System.Drawing.Size(272, 16);
@@ -569,8 +574,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DarkSalmon;
             this.label1.Font = new System.Drawing.Font("Lucida Bright", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(287, 9);
+            this.label1.Location = new System.Drawing.Point(287, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(232, 28);
             this.label1.TabIndex = 58;
@@ -621,6 +627,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Bisque;
             this.ClientSize = new System.Drawing.Size(808, 665);
             this.ControlBox = false;
             this.Controls.Add(this.exitButton);
@@ -686,6 +693,7 @@
             this.Controls.Add(this.middlenameLabel);
             this.Controls.Add(this.firstnameTextBox);
             this.Controls.Add(this.firstnameLabel);
+            this.ForeColor = System.Drawing.Color.Black;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
