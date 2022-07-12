@@ -261,9 +261,9 @@
             this.workexperienceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.workexperienceLabel.Location = new System.Drawing.Point(6, 445);
             this.workexperienceLabel.Name = "workexperienceLabel";
-            this.workexperienceLabel.Size = new System.Drawing.Size(133, 16);
+            this.workexperienceLabel.Size = new System.Drawing.Size(137, 16);
             this.workexperienceLabel.TabIndex = 20;
-            this.workexperienceLabel.Text = "Work Experiences";
+            this.workexperienceLabel.Text = "Work Experiences:";
             // 
             // companyname1Label
             // 
@@ -507,9 +507,9 @@
             this.educationalbgLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.educationalbgLabel.Location = new System.Drawing.Point(421, 62);
             this.educationalbgLabel.Name = "educationalbgLabel";
-            this.educationalbgLabel.Size = new System.Drawing.Size(176, 16);
+            this.educationalbgLabel.Size = new System.Drawing.Size(180, 16);
             this.educationalbgLabel.TabIndex = 50;
-            this.educationalbgLabel.Text = "Educational Background";
+            this.educationalbgLabel.Text = "Educational Background:";
             // 
             // achievementsLabel
             // 
@@ -519,9 +519,9 @@
             this.achievementsLabel.ForeColor = System.Drawing.Color.Black;
             this.achievementsLabel.Location = new System.Drawing.Point(421, 357);
             this.achievementsLabel.Name = "achievementsLabel";
-            this.achievementsLabel.Size = new System.Drawing.Size(272, 16);
+            this.achievementsLabel.Size = new System.Drawing.Size(276, 16);
             this.achievementsLabel.TabIndex = 51;
-            this.achievementsLabel.Text = "Achievements and Acknowledgements";
+            this.achievementsLabel.Text = "Achievements and Acknowledgements:";
             // 
             // achievement1Label
             // 
@@ -576,11 +576,11 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkSalmon;
             this.label1.Font = new System.Drawing.Font("Lucida Bright", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(287, 18);
+            this.label1.Location = new System.Drawing.Point(304, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 28);
+            this.label1.Size = new System.Drawing.Size(203, 28);
             this.label1.TabIndex = 58;
-            this.label1.Text = "Resume Generator";
+            this.label1.Text = "Resume Creator";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // savejsonButton
@@ -694,6 +694,8 @@
             this.Controls.Add(this.firstnameTextBox);
             this.Controls.Add(this.firstnameLabel);
             this.ForeColor = System.Drawing.Color.Black;
+            this.MaximumSize = new System.Drawing.Size(824, 681);
+            this.MinimumSize = new System.Drawing.Size(824, 681);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);

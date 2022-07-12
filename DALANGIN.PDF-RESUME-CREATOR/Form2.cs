@@ -71,7 +71,7 @@ namespace DALANGIN.PDF_RESUME_CREATOR
 
                 Paragraph PersonalInformation = new Paragraph("Personal Information:", arial_italic);
 
-                Paragraph PersonalInfo = new Paragraph(designPDF.Address + "\n" + designPDF.ContactNumber + "\n" + designPDF.EmailAddress + "\n" + designPDF.Skill1 + "\n" + designPDF.Skill2 + "\n" + designPDF.Skill3 + "\n\n");
+                Paragraph PersonalInfo = new Paragraph(designPDF.Address + "\n" + designPDF.ContactNumber + "\n" + designPDF.EmailAddress + "\n" + "Skills:" + "\n" + "•" + designPDF.Skill1 + "\n" + "•" + designPDF.Skill2 + "\n" + "•" + designPDF.Skill3 + "\n\n");
 
                 Paragraph WorkExperiences = new Paragraph("Work Experiences:", arial_italic);
 
@@ -155,11 +155,9 @@ namespace DALANGIN.PDF_RESUME_CREATOR
                 }
 
                 File.Move(changeName, targetPath + lnTextBox.Text + "_" + fnTextBox.Text + ".pdf");
-
+                MessageBox.Show("Done!");
 
             }
-
-            MessageBox.Show("Done!");
 
         }
 
