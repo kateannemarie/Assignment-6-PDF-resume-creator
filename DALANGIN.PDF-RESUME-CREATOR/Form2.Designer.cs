@@ -30,6 +30,7 @@
         {
             this.choosefileButton = new System.Windows.Forms.Button();
             this.datapreviewRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.convertButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // choosefileButton
@@ -50,11 +51,22 @@
             this.datapreviewRichTextBox.TabIndex = 1;
             this.datapreviewRichTextBox.Text = "";
             // 
+            // convertButton
+            // 
+            this.convertButton.Location = new System.Drawing.Point(271, 400);
+            this.convertButton.Name = "convertButton";
+            this.convertButton.Size = new System.Drawing.Size(97, 44);
+            this.convertButton.TabIndex = 2;
+            this.convertButton.Text = "Convert JSON to PDF";
+            this.convertButton.UseVisualStyleBackColor = true;
+            this.convertButton.Click += new System.EventHandler(this.convertButton_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.convertButton);
             this.Controls.Add(this.datapreviewRichTextBox);
             this.Controls.Add(this.choosefileButton);
             this.Name = "Form2";
@@ -67,5 +79,6 @@
 
         private System.Windows.Forms.Button choosefileButton;
         private System.Windows.Forms.RichTextBox datapreviewRichTextBox;
+        private System.Windows.Forms.Button convertButton;
     }
 }

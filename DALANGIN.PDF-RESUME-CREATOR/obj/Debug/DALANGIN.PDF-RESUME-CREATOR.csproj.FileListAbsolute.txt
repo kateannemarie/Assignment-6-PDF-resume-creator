@@ -12,3 +12,25 @@ C:\Users\kitka\source\repos\DALANGIN.PDF-RESUME-CREATOR\DALANGIN.PDF-RESUME-CREA
 C:\Users\kitka\source\repos\DALANGIN.PDF-RESUME-CREATOR\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF-RESUME-CREATOR.csproj.CopyComplete
 C:\Users\kitka\source\repos\DALANGIN.PDF-RESUME-CREATOR\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF-RESUME-CREATOR.exe
 C:\Users\kitka\source\repos\DALANGIN.PDF-RESUME-CREATOR\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF-RESUME-CREATOR.pdb
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\DALANGIN.PDF-RESUME-CREATOR.exe.config
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\DALANGIN.PDF-RESUME-CREATOR.exe
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\DALANGIN.PDF-RESUME-CREATOR.pdb
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\itextsharp.dll
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\itextsharp.xml
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF-RESUME-CREATOR.csproj.AssemblyReference.cache
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF-RESUME-CREATOR.csproj.SuggestedBindingRedirects.cache
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF_RESUME_CREATOR.Form1.resources
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF_RESUME_CREATOR.Form2.resources
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF_RESUME_CREATOR.Properties.Resources.resources
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF-RESUME-CREATOR.csproj.GenerateResource.cache
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF-RESUME-CREATOR.csproj.CoreCompileInputs.cache
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF-RESUME-CREATOR.csproj.CopyComplete
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF-RESUME-CREATOR.exe
+C:\Users\kitka\Desktop\forda clone\Assignment-6-PDF-resume-creator\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF-RESUME-CREATOR.pdb
+C:\Users\kitka\source\repos\DALANGIN.PDF-RESUME-CREATOR\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\kitka\source\repos\DALANGIN.PDF-RESUME-CREATOR\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\itextsharp.dll
+C:\Users\kitka\source\repos\DALANGIN.PDF-RESUME-CREATOR\DALANGIN.PDF-RESUME-CREATOR\bin\Debug\itextsharp.xml
+C:\Users\kitka\source\repos\DALANGIN.PDF-RESUME-CREATOR\DALANGIN.PDF-RESUME-CREATOR\obj\Debug\DALANGIN.PDF_RESUME_CREATOR.Form2.resources
