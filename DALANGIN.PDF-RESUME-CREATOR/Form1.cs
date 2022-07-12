@@ -14,9 +14,16 @@ namespace DALANGIN.PDF_RESUME_CREATOR
 {
     public partial class Form1 : Form
     {
+        public static Form1 instance;
+        public TextBox lastname;
+        public TextBox firstname;
+
         public Form1()
         {
             InitializeComponent();
+            instance = this;
+            lastname = lastnameTextBox;
+            firstname = firstnameTextBox;
         }
 
         private void label1_Click(object sender, EventArgs e)
